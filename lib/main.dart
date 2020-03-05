@@ -16,6 +16,11 @@ import './widget/sized_box_demo.dart';
 import './widget/stack_demo.dart';
 import './widget/aspectRatio_demo.dart';
 import './widget/constrainedBox_demo.dart';
+import './widget/page_view_demo.dart';
+import './widget/page_view_builder_demo.dart';
+import './widget/grid_view_demo.dart';
+import './widget/grid_view_extent_demo.dart';
+import './widget/grid_view_builder_demo.dart';
 
 void main() => runApp(App());
 
@@ -47,6 +52,11 @@ class App extends StatelessWidget {
         '/stack': (_) => StackDemo(),
         '/asp': (_) => AspectRatioDemo(),
         '/cbox': (_) => ConstrainedBoxDemo(),
+        '/page-view': (_) => PageViewDemo(),
+        '/page-view-b': (_) => PageViewBuilderDemo(),
+        '/grid1': (_) => GridViewDemo(),
+        '/grid2': (_) => GridViewExtentDemo(),
+        '/grid3': (_) => GridViewBuilderDemo(),
       },
     );
   }

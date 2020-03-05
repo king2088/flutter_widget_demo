@@ -97,6 +97,27 @@ class _HomePageState extends State<HomePage> {
           'ConstrainedBox设置盒子的最小或最大宽高包括minHeight/minWidth/maxHeight/maxWidth',
       'router': '/cbox'
     },
+    {
+      'title': '轮播图',
+      'description': 'pageView部件构建轮流畅的播图效果，水平/垂直滑动',
+      'router': '/page-view'
+    },
+    {
+      'title': '根据数据生成轮播图',
+      'description': 'pageView.builder部件根据数据循环构建轮播图页面',
+      'router': '/page-view-b'
+    },
+    {'title': '网格视图一', 'description': 'GridView创建网格布局的页面', 'router': '/grid1'},
+    {
+      'title': '网格视图二',
+      'description': 'GridView.extent创建网格布局的页面',
+      'router': '/grid2'
+    },
+    {
+      'title': '网格视图三',
+      'description': 'GridView.builder创建网格布局的页面',
+      'router': '/grid3'
+    }
   ];
 
   @override
