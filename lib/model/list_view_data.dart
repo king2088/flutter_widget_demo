@@ -21,4 +21,34 @@ final List<ListViewData> listViewData = [
     author: '刘备',
     imgUrl: 'assets/3.png',
   ),
+  ListViewData(
+    title: '姐姐和我2',
+    author: '张飞',
+    imgUrl: 'assets/1.jpg',
+  ),
+  ListViewData(
+    title: '我的私人海滩2',
+    author: '关羽',
+    imgUrl: 'assets/2.jpg',
+  ),
+  ListViewData(
+    title: '我在巴黎的第一天2',
+    author: '刘备',
+    imgUrl: 'assets/3.png',
+  ),
+  ListViewData(
+    title: '姐姐和我3',
+    author: '张飞',
+    imgUrl: 'assets/1.jpg',
+  ),
+  ListViewData(
+    title: '我的私人海滩3',
+    author: '关羽',
+    imgUrl: 'assets/2.jpg',
+  ),
+  ListViewData(
+    title: '我在巴黎的第一天3',
+    author: '刘备',
+    imgUrl: 'assets/3.png',
+  ),
 ];

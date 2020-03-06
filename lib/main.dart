@@ -21,6 +21,11 @@ import './widget/page_view_builder_demo.dart';
 import './widget/grid_view_demo.dart';
 import './widget/grid_view_extent_demo.dart';
 import './widget/grid_view_builder_demo.dart';
+import './widget/sliver_grid_demo.dart';
+import './widget/sliver_list_demo.dart';
+import './widget/sliver_appBar_demo.dart';
+import './widget/router_demo.dart';
+import './widget/inkWell_demo.dart';
 
 void main() => runApp(App());
 
@@ -57,6 +62,11 @@ class App extends StatelessWidget {
         '/grid1': (_) => GridViewDemo(),
         '/grid2': (_) => GridViewExtentDemo(),
         '/grid3': (_) => GridViewBuilderDemo(),
+        '/sliver': (_) => SliverGridDemo(),
+        '/sliver-list': (_) => SliverListDemo(),
+        '/sliver-bar': (_) => SliverAppBarDemo(),
+        '/route': (_) => RouterDemo(),
+        '/inkwell': (_) => InkWellDemo(),
       },
     );
   }

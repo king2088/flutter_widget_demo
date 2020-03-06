@@ -117,6 +117,27 @@ class _HomePageState extends State<HomePage> {
       'title': '网格视图三',
       'description': 'GridView.builder创建网格布局的页面',
       'router': '/grid3'
+    },
+    {
+      'title': '网格视图四',
+      'description': '基于SliverGrid创建网格布局的页面',
+      'router': '/sliver'
+    },
+    {
+      'title': 'sliver列表',
+      'description': '基于SliverList创建列表',
+      'router': '/sliver-list'
+    },
+    {
+      'title': 'sliver AppBar可影藏的appbar',
+      'description': '基于SliverAppBar创建的appBar，可以自动隐藏',
+      'router': '/sliver-bar'
+    },
+    {'title': '路由实例', 'description': 'Navigator实现路由跳转、回退等', 'router': '/route'},
+    {
+      'title': '点击水波纹动画效果',
+      'description': 'InkWell部件配置水波纹动画效果',
+      'router': '/inkwell'
     }
   ];
 
