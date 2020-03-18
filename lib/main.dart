@@ -26,6 +26,25 @@ import './widget/sliver_list_demo.dart';
 import './widget/sliver_appBar_demo.dart';
 import './widget/router_demo.dart';
 import './widget/inkWell_demo.dart';
+import './widget/custome_theme_demo.dart';
+import './widget/text_field_demo.dart';
+import './widget/form_demo.dart';
+import './widget/floating_button_demo.dart';
+import './widget/flat_button_demo.dart';
+import './widget/reised_button_demo.dart';
+import './widget/outline_button_demo.dart';
+import './widget/popupmenuButton_demo.dart';
+import './widget/checkbox_demo.dart';
+import './widget/radio_demo.dart';
+import './widget/switch_demo.dart';
+import './widget/slider_demo.dart';
+import './widget/date_time_demo.dart';
+import './widget/simple_dialog_demo.dart';
+import './widget/alert_dialog_demo.dart';
+import './widget/bottom_sheet_demo.dart';
+import './widget/snack_bar_demo.dart';
+import './widget/expansion_panel_demo.dart';
+import './widget/chip_demo.dart';
 
 void main() => runApp(App());
 
@@ -37,6 +56,8 @@ class App extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
+        // primaryColor: Colors.yellow,
+        accentColor: Colors.brown,
       ),
       home: HomePage(),
       routes: <String, WidgetBuilder>{
@@ -67,6 +88,25 @@ class App extends StatelessWidget {
         '/sliver-bar': (_) => SliverAppBarDemo(),
         '/route': (_) => RouterDemo(),
         '/inkwell': (_) => InkWellDemo(),
+        '/theme': (_) => CustomeThemeDemo(),
+        '/text-field': (_) => TextFieldDemo(),
+        '/form': (_) => FormDemo(),
+        '/float-btn': (_) => FloatingButtonDemo(),
+        '/flat-btn': (_) => FlatButtonDemo(),
+        '/rsd-btn': (_) => RaisedButtonDemo(),
+        '/outline-btn': (_) => OutlineButtonDemo(),
+        '/pop-menu-btn': (_) => PopupMenuButtonDemo(),
+        '/checkbox': (_) => CheckBoxDemo(),
+        '/radio': (_) => RadioDemo(),
+        '/switch': (_) => SwitchDemo(),
+        '/slider': (_) => SliderDemo(),
+        '/date': (_) => DateTimeDemo(),
+        '/simple-dialog': (_) => SimpleDialogDemo(),
+        '/alert': (_) => AlertDialogDemo(),
+        '/bootom-sheet': (_) => BottomSheetDemo(),
+        '/snack': (_) => SnackBarDemo(),
+        '/ex-panel': (_) => ExpansionPanelDemo(),
+        '/chip': (_) => ChipDemo(),
       },
     );
   }

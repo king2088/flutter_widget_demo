@@ -138,6 +138,85 @@ class _HomePageState extends State<HomePage> {
       'title': '点击水波纹动画效果',
       'description': 'InkWell部件配置水波纹动画效果',
       'router': '/inkwell'
+    },
+    {'title': '重置主题', 'description': '重新定制跟默认主题不一样的主题并应用', 'router': '/theme'},
+    {
+      'title': '文本字段',
+      'description': 'TextField文本字段实例',
+      'router': '/text-field'
+    },
+    {'title': 'Form表单', 'description': 'Form表单及文本字段实例', 'router': '/form'},
+    {
+      'title': 'Floating-Button浮动按钮',
+      'description': 'flutter中的浮动按钮，FloatingActionButton、BottomAppBar等',
+      'router': '/float-btn'
+    },
+    {
+      'title': 'Flat-Button按钮',
+      'description': 'FlatButton 部件，常见按钮',
+      'router': '/flat-btn'
+    },
+    {
+      'title': 'RaisedButton按钮',
+      'description': 'RaisedButton带背景颜色的按钮',
+      'router': '/rsd-btn'
+    },
+    {
+      'title': 'OutlineButton按钮',
+      'description': 'OutlineButton带边框的按钮',
+      'router': '/outline-btn'
+    },
+    {
+      'title': 'PopuMenuButton弹出式菜单',
+      'description': 'PopuMenuButto弹出式菜单按钮',
+      'router': '/pop-menu-btn'
+    },
+    {
+      'title': 'CheckBox多选框',
+      'description': 'CheckBox多选框',
+      'router': '/checkbox'
+    },
+    {'title': 'Radio单选框', 'description': 'Radio单选框', 'router': '/radio'},
+    {
+      'title': 'Switch开关切换',
+      'description': 'Switch Widget开关切换',
+      'router': '/switch'
+    },
+    {
+      'title': 'Slider滑动输入条',
+      'description': 'Slider滑动型输入器，展示当前值和可选范围',
+      'router': '/slider'
+    },
+    {'title': '日期选择器', 'description': 'dateTime日期格式化、选择器', 'router': '/date'},
+    {
+      'title': 'SimpleDialog对话框',
+      'description': 'SimpleDialog基础简单的对话框',
+      'router': '/simple-dialog'
+    },
+    {
+      'title': 'AlertDialog弹出框',
+      'description': 'AlertDialog对话框',
+      'router': '/alert'
+    },
+    {
+      'title': 'bottomSheet底部滑动窗口',
+      'description': 'BottomSheet底部滑动窗口，从底部滑动弹出窗口',
+      'router': '/bootom-sheet'
+    },
+    {
+      'title': 'SnackBar操作提示',
+      'description': 'SnackBar操作提示弹框',
+      'router': '/snack'
+    },
+    {
+      'title': 'ExpansionPanel收缩面板',
+      'description': 'ExpansionPanel收缩面板,收起、展开、列表',
+      'router': '/ex-panel'
+    },
+    {
+      'title': 'Chip(碎片)，标签',
+      'description': 'Chip标签展示，可删除标签等',
+      'router': '/chip'
     }
   ];
 
