@@ -45,6 +45,11 @@ import './widget/bottom_sheet_demo.dart';
 import './widget/snack_bar_demo.dart';
 import './widget/expansion_panel_demo.dart';
 import './widget/chip_demo.dart';
+import './widget/data_table_demo.dart';
+import './widget/paginated_datatable_demo.dart';
+import './widget/card_demo.dart';
+import './widget/stepper_demo.dart';
+import './widget/state_management_demo.dart';
 
 void main() => runApp(App());
 
@@ -107,6 +112,11 @@ class App extends StatelessWidget {
         '/snack': (_) => SnackBarDemo(),
         '/ex-panel': (_) => ExpansionPanelDemo(),
         '/chip': (_) => ChipDemo(),
+        '/dataTable': (_) => DataTableDemo(),
+        '/patb': (_) => PaginatedDataTableDemo(),
+        '/card': (_) => CardDemo(),
+        '/step': (_) => StepperDemo(),
+        '/state': (_) => StateManagementDemo(),
       },
     );
   }

@@ -217,7 +217,16 @@ class _HomePageState extends State<HomePage> {
       'title': 'Chip(碎片)，标签',
       'description': 'Chip标签展示，可删除标签等',
       'router': '/chip'
-    }
+    },
+    {'title': '数据表格', 'description': 'DataTable数据表格展示', 'router': '/dataTable'},
+    {
+      'title': '分页的数据表格',
+      'description': 'DataTable数据表格分页/排序',
+      'router': '/patb'
+    },
+    {'title': '卡片演示', 'description': 'Card卡片演示/展示', 'router': '/card'},
+    {'title': 'step步骤', 'description': 'Stepper步骤演示', 'router': '/step'},
+    {'title': '状态管理', 'description': '状态state管理', 'router': '/state'}
   ];
 
   @override
